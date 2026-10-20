@@ -1,0 +1,24 @@
+{
+  "name": "dataceen",
+  "owner": {
+    "name": "Dataceen",
+    "email": "support@dataceen.com"
+  },
+  "metadata": {
+    "description": "Dataceen's plugins for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "dataceen-studio",
+      "source": "./claude-code-plugin",
+      "description": "Describe a business and get a running system: a semantic model with its databases, GraphQL API, MCP server, SDKs, example data and a hosted application. Adds the dataceen-studio MCP server and the /dataceen-studio command.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Dataceen",
+        "url": "https://dataceen.com"
+      },
+      "homepage": "https://dataceen.com",
+      "category": "development"
+    }
+  ]
+}
