@@ -11,8 +11,8 @@
     {
       "name": "dataceen-studio",
       "source": "./claude-code-plugin",
-      "description": "Describe a business and get a running system: a semantic model with its databases, GraphQL API, MCP server, SDKs, example data and a hosted application. Adds the dataceen-studio MCP server and the /dataceen-studio command.",
-      "version": "1.0.0",
+      "description": "Describe a business and get a running system: a semantic model with its databases, GraphQL API, MCP server, SDKs, example data and a hosted application. Adds the dataceen-studio MCP server, the build-with-dataceen skill and the /dataceen-studio command.",
+      "version": "1.1.0",
       "author": {
         "name": "Dataceen",
         "url": "https://dataceen.com"

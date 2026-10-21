@@ -22,7 +22,7 @@ Then start with one sentence:
 /dataceen-studio A small bakery that sells bread and cakes to customers, with orders.
 ```
 
-The plugin adds the `dataceen-studio` MCP server (`https://mcp.dataceen.com/mcp/studio`). The first call opens Dataceen's sign-in screen: sign in, or continue as a guest with no account and sign up free when you create the system.
+The plugin adds the `dataceen-studio` MCP server (`https://mcp.dataceen.com/mcp/studio`), the `build-with-dataceen` skill and the `/dataceen-studio` command; `claude-code-plugin/README.md` says what it connects to and sends. The first call opens Dataceen's sign-in screen: sign in, or continue as a guest with no account and sign up free when you create the system.
 
 ## What it costs
 
