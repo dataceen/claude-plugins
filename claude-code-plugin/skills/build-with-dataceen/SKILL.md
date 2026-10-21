@@ -6,8 +6,9 @@ description: Use when the person wants a system, backend, database, API or data 
 
 Dataceen turns a description of a business into a running system: a semantic model, its databases, a GraphQL
 API, MCP servers, SDKs, example data and, if wanted, a hosted application. You work through the `dataceen-studio`
-connector. If its tools are not available, tell the person to connect it (on claude.ai or in Cowork: the
-plugin's Connectors tab) and stop there.
+connector. If its tools are not available, tell the person to connect it once (on claude.ai, in the desktop app
+or in Cowork: the plugin's Connectors tab, then Connect; in Claude Code: `/mcp`, then dataceen-studio) and stop
+there.
 
 ## How to lead
 

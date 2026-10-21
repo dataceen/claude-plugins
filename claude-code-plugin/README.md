@@ -20,6 +20,10 @@ On claude.ai or in Cowork, add it from the directory. In Claude Code:
 /plugin install dataceen-studio --marketplace dataceen/claude-plugins
 ```
 
+Then connect it, once: on claude.ai, in the desktop app and in Cowork, open the plugin's **Connectors** tab and
+select **Connect**; in Claude Code, run `/mcp`, choose `dataceen-studio` and authenticate. Either way Dataceen's
+screen opens: sign in, or continue as a guest with no account. Installing alone signs you in to nothing.
+
 ## What the plugin contains
 
 - **The `dataceen-studio` connector**: Dataceen's remote MCP server at `https://mcp.dataceen.com/mcp/studio`
