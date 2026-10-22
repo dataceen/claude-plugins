@@ -1,6 +1,6 @@
 # Dataceen plugins for Claude Code
 
-A Claude Code plugin marketplace with one plugin, **dataceen-studio**: describe a business in your own words and Dataceen builds it as a running system, with you deciding every step. You get a semantic model with its databases, a GraphQL API, its own MCP server, SDKs in six languages, example data and, if you want one, a hosted application whose code is yours.
+A Claude Code plugin marketplace with one plugin, **dataceen**: describe a business in your own words and Dataceen builds it as a running system, with you deciding every step. You get a semantic model with its databases, a GraphQL API, its own MCP server, SDKs in six languages, example data and, if you want one, a hosted application whose code is yours.
 
 Data first, not AI first. The model is the asset: everything else is generated from it and follows it
 when it changes. So many applications and integrations can share the same data: a dashboard, a customer
@@ -13,16 +13,16 @@ they agree, and the next application costs only the application.
 
 ```
 /plugin marketplace add dataceen/claude-plugins
-/plugin install dataceen-studio@dataceen
+/plugin install dataceen@dataceen
 ```
 
 Then start with one sentence:
 
 ```
-/dataceen-studio A small bakery that sells bread and cakes to customers, with orders.
+/dataceen A small bakery that sells bread and cakes to customers, with orders.
 ```
 
-The plugin adds the `dataceen-studio` MCP server (`https://mcp.dataceen.com/mcp/studio`), the `build-with-dataceen` skill and the `/dataceen-studio` command; `claude-code-plugin/README.md` says what it connects to and sends. The first call opens Dataceen's sign-in screen: sign in, or continue as a guest with no account and sign up free when you create the system.
+The plugin adds the `dataceen` MCP server (`https://mcp.dataceen.com/mcp/studio`), the `build-with-dataceen` skill and the `/dataceen` command; `claude-code-plugin/README.md` says what it connects to and sends. The first call opens Dataceen's sign-in screen: sign in, or continue as a guest with no account and sign up free when you create the system.
 
 ## What it costs
 

@@ -3,7 +3,7 @@ description: Describe a business and let Dataceen build it as a running system, 
 argument-hint: <the business, in a sentence or a paragraph, in your own words>
 ---
 
-Build a Dataceen system for this business with the `dataceen-studio` MCP server. These are my words; use them as the description as they are:
+Build a Dataceen system for this business with the `dataceen` MCP server. These are my words; use them as the description as they are:
 
 $ARGUMENTS
 

@@ -17,22 +17,22 @@ model instead of their own database.
 On claude.ai or in Cowork, add it from the directory. In Claude Code:
 
 ```
-/plugin install dataceen-studio --marketplace dataceen/claude-plugins
+/plugin install dataceen --marketplace dataceen/claude-plugins
 ```
 
 Then connect it, once: on claude.ai, in the desktop app and in Cowork, open the plugin's **Connectors** tab and
-select **Connect**; in Claude Code, run `/mcp`, choose `dataceen-studio` and authenticate. Either way Dataceen's
+select **Connect**; in Claude Code, run `/mcp`, choose `dataceen` and authenticate. Either way Dataceen's
 screen opens: sign in, or continue as a guest with no account. Installing alone signs you in to nothing.
 
 ## What the plugin contains
 
-- **The `dataceen-studio` connector**: Dataceen's remote MCP server at `https://mcp.dataceen.com/mcp/studio`
+- **The `dataceen` connector**: Dataceen's remote MCP server at `https://mcp.dataceen.com/mcp/studio`
   (streamable HTTP). On claude.ai and in Cowork, connect it from the plugin's Connectors tab.
 - **The `build-with-dataceen` skill**: how to lead the person through the steps (one question at a time, the
   person's own words as the description, nothing built before they say so). Claude uses it when the conversation
   is about building a system, a backend or a data model for a business.
-- **The `/dataceen-studio` command**: the same flow started from one sentence, for example
-  `/dataceen-studio A small bakery that sells bread and cakes to customers, with orders.`
+- **The `/dataceen` command**: the same flow started from one sentence, for example
+  `/dataceen A small bakery that sells bread and cakes to customers, with orders.`
 
 The plugin runs nothing on your computer: no scripts, no hooks, no local server, no packages installed.
 

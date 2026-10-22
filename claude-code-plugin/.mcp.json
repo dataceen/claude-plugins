@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "dataceen-studio": {
+    "dataceen": {
       "type": "http",
       "url": "https://mcp.dataceen.com/mcp/studio"
     }

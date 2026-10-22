@@ -1,13 +1,13 @@
 ---
-description: Use when the person wants a system, backend, database, API or data model for a business or an organisation, or an application on top of one, or mentions Dataceen. Leads them through Dataceen's steps with the dataceen-studio connector, one decision at a time.
+description: Use when the person wants a system, backend, database, API or data model for a business or an organisation, or an application on top of one, or mentions Dataceen. Leads them through Dataceen's steps with the dataceen connector, one decision at a time.
 ---
 
 # Build with Dataceen
 
 Dataceen turns a description of a business into a running system: a semantic model, its databases, a GraphQL
-API, MCP servers, SDKs, example data and, if wanted, a hosted application. You work through the `dataceen-studio`
+API, MCP servers, SDKs, example data and, if wanted, a hosted application. You work through the `dataceen`
 connector. If its tools are not available, tell the person to connect it once (on claude.ai, in the desktop app
-or in Cowork: the plugin's Connectors tab, then Connect; in Claude Code: `/mcp`, then dataceen-studio) and stop
+or in Cowork: the plugin's Connectors tab, then Connect; in Claude Code: `/mcp`, then dataceen) and stop
 there.
 
 ## How to lead
