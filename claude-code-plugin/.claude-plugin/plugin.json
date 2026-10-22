@@ -1,8 +1,8 @@
 {
   "name": "dataceen-studio",
-  "displayName": "Dataceen Studio",
-  "description": "Dataceen Studio as tools: a semantic model of a business becomes a running system, generated. Create a model, add sources, build it, define a scope per consumer, publish that scope as its own MCP server, GraphQL API and SDK, then have Dataceen build and host an application on it; the code is yours in a private repository. The build-with-dataceen skill and the /dataceen-studio command lead the flow.",
-  "version": "1.1.2",
+  "displayName": "Dataceen",
+  "description": "Dataceen as tools: a semantic model of a business becomes a running system, generated. Create a model, add sources, build it, define a scope per consumer, publish that scope as its own MCP server, GraphQL API and SDK, then have Dataceen build and host an application on it; the code is yours in a private repository. The build-with-dataceen skill and the /dataceen-studio command lead the flow.",
+  "version": "1.1.3",
   "author": {
     "name": "Dataceen",
     "email": "support@dataceen.com",

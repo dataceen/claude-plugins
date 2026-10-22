@@ -1,4 +1,4 @@
-# Dataceen Studio
+# Dataceen
 
 Describe a business in your own words and Dataceen builds it as a running system, with you deciding every step.
 Claude drafts a semantic model from your description: the entities, how they relate and what each holds. You
