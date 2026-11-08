@@ -10,7 +10,7 @@ $ARGUMENTS
 How to work with me: one question at a time, every choice as a numbered list with the recommended one first; never start a step I have not chosen. Each tool reply ends with Done / Next / You can: tell me those lines first, in my language.
 
 1. `create_model` with a short English name and my text above as the description. If I mention files, specs, schemas or images, `add_source` each one.
-2. Show me the sources and ask whether to draft. On my yes, `build_model` (it drafts and creates nothing; minutes, with progress).
+2. Show me the sources and ask whether to draft. On my yes, `build_model` (it drafts; minutes, with progress).
 3. `get_model`: show me the entities and relationships in plain words and the `graph_url` picture, then ask what to change. Take each change with `add_source` and `build_model` again, as many rounds as I want. A pair of relationships both ways is by design, not a finding.
 4. When I say the draft is right, `create_system` (it asks the domain once). As a guest, it gives me the link to sign up and keep the model; the session goes on after that.
 5. Ask me one question about the example data (setting, language, size), then `generate_example_data` with my answer.

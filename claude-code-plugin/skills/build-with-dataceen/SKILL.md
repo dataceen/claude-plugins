@@ -24,7 +24,7 @@ there.
 1. `create_model` with a short English name in ASCII and their text as the description. Each file, spec, schema
    or image they give goes in with `add_source`.
 2. Show the sources and ask whether to draft. On their yes, `build_model`: it drafts the structure in minutes,
-   with progress, and creates nothing yet.
+   with progress.
 3. `get_model`: describe the entities and relationships in plain words and give the picture link. Ask what to
    change; `update_model` stages changes and `build_model` applies them, as many rounds as they want.
    A pair of relationships in both directions is by design, never a finding to remove.
@@ -36,6 +36,32 @@ there.
    never say row-level access needs filtering in the application.
 7. If they want an application, `build_application` asks the brief's questions first; they answer or say
    "start". `get_application` gives the address; `share_repository` adds their GitHub username to the code.
+
+## An input pack
+
+A person may bring an input pack from Dataceen's legacy assessment: a `README.md` across the models and one
+`<Model>.md` per model with everything in it. Build the models in the order the README's section 4 gives, and ask
+nothing the pack has settled: say what the pack says and go on. Per model:
+
+1. `import_pack` with the model file whole (its text as `content`, or a `url`), as the session's first act, the file read
+   and sent as it is, never retyped from memory. When the file is too big for a tool argument, or the session has already
+   worked through the material, call `import_pack` with neither: it answers an upload address that takes the file from
+   one curl line (in its reply) or a browser, and a pack's next model file goes to the same address. It creates the model from the file's
+   Description, adds one source per fenced block of the Sources section with the header line's kind, and the Entities
+   and Search sections as one `text` source; its reply lists what landed, what was refused, the images to `add_source`
+   from the files beside the model file, and whether the file says the person confirmed the description (if not, show
+   it to them before the build). Without `import_pack` the same by hand: `create_model` with the Description, then one
+   `add_source` per block with its kind, never the whole file as one text source.
+2. `build_model`, then the draft against the Entities table, entity by entity: present under the pack's name, the
+   identity, the fixed lists, the links the notes name, what the table says is left out; `update_model` stages every
+   difference, `build_model` applies them.
+3. `create_system` with `locate` for the entities the Search table marks as located from an address.
+4. `generate_example_data` from the Example data section (its Size line as `size`), or none if it says so.
+5. One `update_scope` per row of the Scopes table, a restriction where it says only one party's rows, in the table's
+   order: the first application's scope first (README section 4 names it) and `publish` at once; the feed's write scope
+   waits for the feed-in program and never carries the first application.
+6. `build_application` with the first application of README section 4 as the brief, on its scope. The hand-offs of section 3 are
+   task applications, after the models they join.
 
 ## Why the model matters
 
